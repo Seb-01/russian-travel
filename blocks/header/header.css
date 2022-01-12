@@ -2,11 +2,13 @@
   /* для мониторов минимум 1280px шириной */
 
   .header {
-    position: absolute;
+    /* для абсолютного выравнивания линков */
+    position: relative;
+
     width: 1184px;
     height: 52px;
-    left: 48px;
-    top: 28px;
+    padding-top: 28px;
+    margin: auto;
   }
 }
 

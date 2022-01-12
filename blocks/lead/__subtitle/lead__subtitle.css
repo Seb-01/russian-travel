@@ -1,0 +1,21 @@
+@media screen and (min-width: 1280px) {
+  /* для мониторов минимум 1280px шириной */
+
+  .lead__subtitle {
+    width: 640px;
+    height: 72px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #ffffff;
+
+    margin: 32px 0 64px;
+  }
+}

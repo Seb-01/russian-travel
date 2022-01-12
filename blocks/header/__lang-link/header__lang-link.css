@@ -5,7 +5,8 @@
     position: absolute;
     width: 29px;
     height: 28px;
-    left: 1203px;
+    left: 1155px;
+    /* не забываем, что padding - часть элемента */
     top: 46px;
 
     font-family: Inter;
@@ -25,7 +26,9 @@
     position: absolute;
     width: 30px;
     height: 28px;
-    left: 1155px;
+    left: 1107px;
+
+    /* не забываем, что padding - часть элемента */
     top: 46px;
 
     font-family: Inter;

@@ -1,8 +1,8 @@
 @media screen and (min-width: 1280px) {
   /* для мониторов минимум 1280px шириной */
 
-  .header__logo {
-    width: 176px;
-    height: 52px;
+  .lead__image {
+    width: 984px;
+    height: 615px;
   }
 }

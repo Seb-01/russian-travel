@@ -1,0 +1,20 @@
+@media screen and (min-width: 1280px) {
+  /* для мониторов минимум 1280px шириной */
+
+  .intro__list {
+    width: 690px;
+    height: 90px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+    color: #ffffff;
+
+    list-style-type: none;
+    padding: 0;
+  }
+}

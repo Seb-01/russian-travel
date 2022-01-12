@@ -3,11 +3,28 @@
 
   .page {
     position: relative;
-    width: 1280px;
+    max-width: 1280px;
     height: 6875px;
 
     background: #2a2c2f;
     margin: auto;
+
+    font-family: "Inter", Arial, sans-serif;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* для мониторов минимум 1280px шириной */
+
+  .page {
+    position: relative;
+    max-width: 1280px;
+    height: 6875px;
+
+    background: #2a2c2f;
+    margin: auto;
+
+    font-family: "Inter", Arial, sans-serif;
   }
 }
 

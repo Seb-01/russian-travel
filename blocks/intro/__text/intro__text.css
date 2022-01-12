@@ -1,0 +1,19 @@
+@media screen and (min-width: 1280px) {
+  /* для мониторов минимум 1280px шириной */
+
+  .intro__text {
+    width: 690px;
+    height: 208px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
+
+    color: #ffffff;
+
+    margin: 40px 0 33px;
+  }
+}
