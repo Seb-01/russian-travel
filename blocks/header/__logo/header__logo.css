@@ -1,0 +1,13 @@
+@media screen and (min-width: 1280px) {
+  /* для мониторов минимум 1280px шириной */
+
+  .header__logo {
+    position: absolute;
+    width: 176px;
+    height: 52px;
+    left: 48px;
+    top: 28px;
+
+    background: #ffffff;
+  }
+}

@@ -1,0 +1,24 @@
+@media screen and (min-width: 1280px) {
+  /* для мониторов минимум 1280px шириной */
+
+  .header {
+    position: absolute;
+    width: 1184px;
+    height: 52px;
+    left: 48px;
+    top: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+}
+@media screen and (max-width: 425px) {
+  /* стили для широкого смартфона */
+}
+@media screen and (max-width: 375px) {
+  /* стили для среднего смартфона */
+}
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+}

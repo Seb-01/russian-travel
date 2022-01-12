@@ -1,0 +1,43 @@
+@media screen and (min-width: 1280px) {
+  /* для мониторов минимум 1280px шириной */
+
+  .header__lang-link {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 1203px;
+    top: 46px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+
+    text-align: right;
+
+    color: #ffffff;
+    text-decoration-line: none;
+  }
+
+  .header__lang-link:first-of-type {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    left: 1155px;
+    top: 46px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #ffffff;
+  }
+}
