@@ -1,0 +1,16 @@
+.photo-grid {
+  width: 1184px;
+  height: 671px;
+
+  display: grid;
+  margin: auto;
+  padding: 0;
+
+  /* Будет создано 4 колонки */
+  grid-template-columns: repeat(4, 284px);
+  /* Будет создано 3 ряда */
+  grid-template-rows: repeat(3, 213px);
+  gap: 16px;
+
+  list-style-type: none;
+}

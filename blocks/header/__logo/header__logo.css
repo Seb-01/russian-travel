@@ -1,8 +1,14 @@
-@media screen and (min-width: 1280px) {
-  /* для мониторов минимум 1280px шириной */
+.header__logo {
+  width: 176px;
+  height: 52px;
+  display: block;
+}
 
+/* максимально до 768px */
+@media screen and (max-width: 768px) {
   .header__logo {
-    width: 176px;
-    height: 52px;
+    /* размеры уменьшаем */
+    width: 142px;
+    height: 42px;
   }
 }

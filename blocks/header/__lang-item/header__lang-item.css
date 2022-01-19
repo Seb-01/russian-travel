@@ -1,0 +1,26 @@
+.header__lang-item {
+  display: inline-block;
+  width: 30px;
+  height: 28px;
+
+  margin: 0 0 6px;
+  padding-right: 18px;
+}
+
+.header__lang-item:last-of-type {
+  width: 29px;
+  padding-right: 0;
+  text-decoration: none;
+}
+
+/* не шире, чем 320px */
+@media screen and (max-width: 320px) {
+  .header__lang-item {
+    width: 22px;
+    height: 20px;
+  }
+
+  .header__lang-item:last-of-type {
+    width: 22px;
+  }
+}

@@ -1,26 +1,30 @@
-@media screen and (min-width: 1280px) {
-  /* для мониторов минимум 1280px шириной */
+.header {
+  /* для абсолютного выравнивания линков */
+  position: relative;
 
+  /* для создания резинового эффекта: по 48px с каждой стороны*/
+  max-width: 1184px; /* фрейм #1280*/
+  min-width: 288px; /* фрейм #320*/
+  margin: 0 auto; /* говорим: по центру */
+
+  padding: 28px 48px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* не шире, чем 768 */
+@media screen and (max-width: 768px) {
   .header {
-    /* для абсолютного выравнивания линков */
-    position: relative;
-
-    width: 1184px;
-    height: 52px;
-    padding-top: 28px;
-    margin: auto;
+    /* по 24px теперь с каждой стороны */
+    padding: 28px 24px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
-  /* стили для планшета */
-}
-@media screen and (max-width: 425px) {
-  /* стили для широкого смартфона */
-}
-@media screen and (max-width: 375px) {
-  /* стили для среднего смартфона */
-}
+/* не шире, чем 320px */
 @media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
+  .header {
+    /* отступы переделывам обеспечиваем */
+    padding: 16px 16px 0;
+  }
 }

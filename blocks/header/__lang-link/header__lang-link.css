@@ -1,46 +1,27 @@
-@media screen and (min-width: 1280px) {
-  /* для мониторов минимум 1280px шириной */
+.header__lang-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
 
+  color: #ffffff;
+
+  /* для CSS3-перехода */
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.65;
+}
+
+/* не шире, чем 320px */
+@media screen and (max-width: 320px) {
   .header__lang-link {
-    position: absolute;
-    width: 29px;
-    height: 28px;
-    left: 1155px;
-    /* не забываем, что padding - часть элемента */
-    top: 46px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height, or 117% */
-
-    text-align: right;
-
-    color: #ffffff;
-    text-decoration-line: none;
-  }
-
-  .header__lang-link:first-of-type {
-    position: absolute;
-    width: 30px;
-    height: 28px;
-    left: 1107px;
-
-    /* не забываем, что padding - часть элемента */
-    top: 46px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height, or 117% */
-
-    text-align: right;
-    text-decoration-line: underline;
-
-    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
   }
 }

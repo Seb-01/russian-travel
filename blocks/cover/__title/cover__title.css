@@ -1,17 +1,15 @@
-.lead__title {
-  width: 720px;
-  height: 200px;
+.cover__title {
+  max-width: 560px;
 
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
-  font-size: 96px;
-  line-height: 100px;
-  /* or 104% */
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
 
   text-align: center;
 
   color: #ffffff;
-
   margin: 0;
 }

@@ -1,0 +1,9 @@
+.footer__items-list {
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+
+  /* убираем пробелы между inline элементами */
+  display: flex;
+}
