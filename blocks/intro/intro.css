@@ -1,27 +1,28 @@
 .intro {
-  max-width: 984px;
-  min-width: 320px;
+  max-width: 690px;
 
   display: flex;
   flex-direction: column;
 
   align-items: start;
 
-  margin: 114px auto 92px;
+  margin: 92px auto 92px;
+}
+
+/* не шире, чем 1024px */
+@media screen and (max-width: 1024px) {
+  .intro {
+    /* отступы переделывам обеспечиваем */
+    margin: 88px auto 88px;
+    max-width: 720px;
+  }
 }
 
 /* не шире, чем 768px */
 @media screen and (max-width: 768px) {
   .intro {
     /* отступы переделывам обеспечиваем */
-    margin: 110px auto 88px;
-  }
-}
-
-/* не шире, чем 320px */
-@media screen and (max-width: 320px) {
-  .intro {
-    /* отступы переделывам обеспечиваем */
-    margin: 86px auto 64px;
+    margin: 64px auto 64px;
+    max-width: 288px;
   }
 }

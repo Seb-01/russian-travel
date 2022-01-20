@@ -1,6 +1,5 @@
 .lead {
   max-width: 984px;
-  min-width: 320px;
 
   display: flex;
   flex-direction: column;
@@ -11,9 +10,27 @@
 }
 
 /* не шире, чем 1027px */
+@media screen and (max-width: 1280px) {
+  .lead {
+    /* отступы переделывам обеспечиваем */
+    max-width: 928px;
+  }
+}
+
+/* не шире, чем 1027px */
 @media screen and (max-width: 1024px) {
   .lead {
     /* отступы переделывам обеспечиваем */
+    padding-top: 48px;
+    max-width: 768px;
+  }
+}
+
+/* не шире, чем 1027px */
+@media screen and (max-width: 768px) {
+  .lead {
+    /* отступы переделывам обеспечиваем */
+    max-width: 320px;
     padding-top: 48px;
   }
 }

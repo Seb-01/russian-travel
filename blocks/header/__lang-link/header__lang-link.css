@@ -18,8 +18,8 @@
   opacity: 0.65;
 }
 
-/* не шире, чем 320px */
-@media screen and (max-width: 320px) {
+/* не шире, чем 768px */
+@media screen and (max-width: 768px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
