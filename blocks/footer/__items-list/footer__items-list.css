@@ -7,3 +7,11 @@
   /* убираем пробелы между inline элементами */
   display: flex;
 }
+
+/* не шире, чем 768 */
+@media screen and (max-width: 768px) {
+  .footer__items-list {
+    width: 186px;
+    display: list-item;
+  }
+}

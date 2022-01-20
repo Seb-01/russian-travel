@@ -11,3 +11,12 @@
   color: #ffffff;
   margin-top: 2px;
 }
+
+/* не шире, чем 768 */
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    width: 186px;
+    text-align: left;
+    line-height: 14px;
+  }
+}

@@ -1,6 +1,5 @@
 .intro__list {
   width: 690px;
-  height: 90px;
 
   font-family: Inter;
   font-style: normal;
@@ -13,4 +12,28 @@
 
   list-style-type: none;
   padding: 0;
+}
+
+/* не шире, чем 768px */
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    max-width: 690px;
+    padding: 0 16px 0;
+  }
+}
+
+/* не шире, чем 768px */
+@media screen and (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+    padding: 0 16px 0;
+  }
+}
+
+/* не шире, чем 320px */
+@media screen and (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+    padding: 0 16px 0;
+  }
 }

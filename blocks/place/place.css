@@ -1,5 +1,5 @@
 .place {
-  width: 984px;
+  max-width: 984px;
   display: grid;
   margin: 0 auto 80px;
   padding: 0;
@@ -18,4 +18,52 @@
 
 .place:last-child {
   margin: 0 auto 92px;
+}
+
+/* не шире, чем 1280 */
+@media screen and (max-width: 1280px) {
+  .place {
+    max-width: 928px;
+    /* Будет создано 2 колонки */
+    grid-template-columns: 440px 456px;
+
+    /* Отступы между колонками */
+    column-gap: 32px;
+  }
+}
+
+/* не шире, чем 1024 */
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 720px;
+    /* Будет создано 2 колонки */
+    grid-template-columns: 340px 352px;
+
+    /* Отступы между колонками */
+    column-gap: 28px;
+
+    margin: 0 auto 73px;
+  }
+
+  .place:last-child {
+    margin: 0 auto 90px;
+  }
+}
+
+/* не шире, чем 768 */
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    /* Будет создана 1 колонка */
+    grid-template-columns: 320px;
+
+    /* Отступы между колонками */
+    row-gap: 32px;
+
+    margin: 0 auto 50px;
+  }
+
+  .place:last-child {
+    margin: 0 auto 99px;
+  }
 }

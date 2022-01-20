@@ -1,5 +1,7 @@
 .place__paragraph {
-  width: 484px;
+  /* чтобы мог сужаться */
+  max-width: 484px;
+  min-width: 288px;
 
   font-family: Inter;
   font-style: normal;
@@ -10,4 +12,24 @@
 
   color: #ffffff;
   margin: 0 0 26px;
+}
+
+/* не шире, чем 1024 */
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: 16px;
+    padding: 0 16px 0;
+    box-sizing: border-box;
+    max-width: 352px;
+  }
+}
+
+/* не шире, чем 768 */
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    padding: 0 16px 0;
+    max-width: 288px;
+    box-sizing: border-box;
+  }
 }

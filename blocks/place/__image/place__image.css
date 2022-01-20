@@ -1,5 +1,6 @@
 /* для мониторов минимум 1280px шириной */
 
 .place__image {
-  width: 460px;
+  display: block;
+  width: 100%;
 }

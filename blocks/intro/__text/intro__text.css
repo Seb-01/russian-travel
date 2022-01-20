@@ -1,6 +1,5 @@
 .intro__text {
-  width: 690px;
-  height: 208px;
+  max-width: 690px;
 
   font-family: Inter;
   font-style: normal;
@@ -12,4 +11,30 @@
   color: #ffffff;
 
   margin: 40px 0 33px;
+}
+
+/* не шире, чем 1024px */
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    max-width: 690px;
+    padding: 0 16px 0;
+  }
+}
+
+/* не шире, чем 768px */
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+    padding: 0 16px 0;
+  }
+}
+
+/* не шире, чем 320px */
+@media screen and (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+    margin: 40px 0 34px;
+    padding: 0 16px 0;
+    box-sizing: border-box;
+  }
 }

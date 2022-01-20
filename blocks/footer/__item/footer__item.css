@@ -5,3 +5,11 @@
   /* делаем горизонтальное меню */
   display: inline-block;
 }
+
+/* не шире, чем 768 */
+@media screen and (max-width: 768px) {
+  .footer__item {
+    display: list-item;
+    margin-bottom: 32px;
+  }
+}

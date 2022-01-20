@@ -25,3 +25,11 @@
 .footer__link:hover {
   opacity: 0.65;
 }
+
+/* не шире, чем 768
+@media screen and (max-width: 768px) {
+  .footer__link {
+    display: list-item;
+  }
+}
+*/
