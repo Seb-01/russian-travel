@@ -2,16 +2,17 @@
   /* чтобы мог сужаться */
   max-width: 484px;
   min-width: 288px;
-
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 163%;
-  /* or 29px */
-
+  line-height: 29px;
   color: #ffffff;
   margin: 0 0 26px;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
 }
 
 /* не шире, чем 1024 */

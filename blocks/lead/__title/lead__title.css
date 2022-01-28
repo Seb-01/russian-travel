@@ -1,17 +1,12 @@
 .lead__title {
   width: 720px;
-
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  /* or 104% */
-
   text-align: center;
-
   color: #ffffff;
-
   margin: 0;
 }
 
@@ -20,7 +15,6 @@
   .lead__title {
     /* достаточно адаптивного поведения - переключения на точках */
     width: 288px;
-
     font-size: 40px;
     line-height: 44px;
   }

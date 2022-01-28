@@ -1,14 +1,9 @@
 .header {
-  /* для абсолютного выравнивания линков */
-  position: relative;
-
   /* для создания резинового эффекта: по 48px с каждой стороны*/
   max-width: 1184px;
   min-width: 288px;
   margin: 0 auto; /* говорим: по центру */
-
   padding: 28px 48px 0;
-
   display: flex;
   justify-content: space-between;
 }

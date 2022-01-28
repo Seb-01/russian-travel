@@ -3,13 +3,11 @@
   display: grid;
   margin: 0 auto 80px;
   padding: 0;
-
   /* Будет создано 2 колонки */
   grid-template-columns: 460px 484px;
   /* Будет создано 2 ряда */
   /* делаем так, чтобы подстроиться под содержимое title*/
   grid-auto-rows: minmax(min-content, max-content) auto;
-
   /* Отступы между колонками */
   column-gap: 40px;
   /* Отступы между рядами */
@@ -26,7 +24,6 @@
     max-width: 928px;
     /* Будет создано 2 колонки */
     grid-template-columns: 440px 456px;
-
     /* Отступы между колонками */
     column-gap: 32px;
   }
@@ -38,10 +35,8 @@
     max-width: 720px;
     /* Будет создано 2 колонки */
     grid-template-columns: 340px 352px;
-
     /* Отступы между колонками */
     column-gap: 28px;
-
     margin: 0 auto 73px;
   }
 
@@ -56,10 +51,8 @@
     max-width: 720px;
     /* Будет создана 1 колонка */
     grid-template-columns: 320px;
-
     /* Отступы между колонками */
     row-gap: 32px;
-
     margin: 0 auto 50px;
   }
 

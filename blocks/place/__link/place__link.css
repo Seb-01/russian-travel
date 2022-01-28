@@ -1,17 +1,13 @@
 .place__link {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height, or 122% */
-
   text-decoration-line: underline;
-
   color: #ffffff;
-
   /* для CSS3-перехода */
-  opacity: 1;
+  opacity: 0.8;
   transition-property: opacity;
   transition-duration: 0.5s;
 }

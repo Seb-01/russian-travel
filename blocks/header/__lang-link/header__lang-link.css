@@ -1,17 +1,15 @@
 .header__lang-link {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  /* identical to box height, or 117% */
-
   color: #ffffff;
-
   /* для CSS3-перехода */
-  opacity: 1;
+  opacity: 0.8;
   transition-property: opacity;
   transition-duration: 0.5s;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {

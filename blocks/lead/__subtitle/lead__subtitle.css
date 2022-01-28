@@ -1,17 +1,12 @@
 .lead__subtitle {
   width: 640px;
-
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
-  /* or 120% */
-
   text-align: center;
-
   color: #ffffff;
-
   margin: 32px 0 64px;
 }
 
@@ -19,7 +14,6 @@
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
     /* достаточно адаптивного поведения - переключения на точках */
-
     margin: 32px 0 56px;
   }
 }
@@ -29,10 +23,8 @@
   .lead__subtitle {
     /* достаточно адаптивного поведения - переключения на точках */
     width: 288px;
-
     font-size: 16px;
     line-height: 20px;
-
     margin: 16px 0 40px;
   }
 }
