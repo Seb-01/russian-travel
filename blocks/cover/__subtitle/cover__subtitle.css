@@ -10,11 +10,12 @@
   margin: 32px 0 0;
 }
 
-/* не шире, чем 768 */
-@media screen and (max-width: 768px) {
+/* не шире, чем 767 */
+@media screen and (max-width: 767px) {
   .cover__subtitle {
-    width: 288px;
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
+    margin: 16px 0 0;
   }
 }

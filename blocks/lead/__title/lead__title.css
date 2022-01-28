@@ -10,8 +10,8 @@
   margin: 0;
 }
 
-/* не шире, чем 768px */
-@media screen and (max-width: 768px) {
+/* не шире, чем 767px */
+@media screen and (max-width: 767px) {
   .lead__title {
     /* достаточно адаптивного поведения - переключения на точках */
     width: 288px;

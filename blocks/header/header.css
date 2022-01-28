@@ -8,16 +8,25 @@
   justify-content: space-between;
 }
 
-/* не шире, чем 1024 */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
     /* по 24px теперь с каждой стороны */
-    padding: 28px 24px 0;
+    padding: 28px 48px 0;
+    width: 928px;
+    box-sizing: content-box;
   }
 }
 
-/* не шире, чем 768px */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    /* по 24px теперь с каждой стороны */
+    padding: 28px 24px 0;
+    width: 720px;
+    box-sizing: content-box;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .header {
     /* отступы переделывам обеспечиваем */
     padding: 16px 16px 0;

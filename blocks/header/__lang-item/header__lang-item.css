@@ -5,18 +5,11 @@
 }
 
 .header__lang-item:last-of-type {
-  width: 29px;
   padding-right: 0;
-  text-decoration: none;
 }
 
-/* не шире, чем 320px */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header__lang-item {
-    width: 22px;
-  }
-
-  .header__lang-item:last-of-type {
     width: 22px;
   }
 }

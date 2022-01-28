@@ -10,14 +10,13 @@
 }
 
 /* не шире, чем 1024px */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__title {
     width: 720px;
   }
 }
 
-/* не шире, чем 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro__title {
     width: 288px;
     font-size: 32px;
