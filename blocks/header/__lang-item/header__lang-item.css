@@ -1,7 +1,7 @@
 .header__lang-item {
   width: 30px;
-  margin: 0 0 6px;
   padding-right: 18px;
+  margin: 0 0 6px;
 }
 
 .header__lang-item:last-of-type {

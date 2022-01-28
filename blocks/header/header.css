@@ -11,8 +11,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
     /* по 24px теперь с каждой стороны */
-    padding: 28px 48px 0;
-    width: 928px;
+    max-width: 928px;
     box-sizing: content-box;
   }
 }
@@ -21,7 +20,7 @@
   .header {
     /* по 24px теперь с каждой стороны */
     padding: 28px 24px 0;
-    width: 720px;
+    max-width: 720px;
     box-sizing: content-box;
   }
 }
